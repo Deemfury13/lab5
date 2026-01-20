@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.container { max-width: 400px; margin-bottom: 50px; }
+input { display: block; width: 100%; margin: 10px 0; padding: 8px; border: 1px solid #ccc; }
+button { padding: 10px 20px; cursor: pointer; }
+
+/* Клас для помилок */
+.error { border: 2px solid red; background-color: #ffe6e6; }
+
+.result-box { margin-top: 20px; padding: 15px; border: 1px solid #000; display: none; }
+
+/* Таблиця */
+table { border-collapse: collapse; margin-top: 20px; }
+td { width: 50px; height: 50px; border: 1px solid black; text-align: center; cursor: pointer; }

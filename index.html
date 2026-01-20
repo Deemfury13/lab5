@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Форма для заповнення</h2>
+        <form id="infoForm">
+            <input type="text" id="pib" placeholder="ПІБ (Прізвище І.О.)" required>
+            <input type="text" id="phone" placeholder="Телефон ((000)-000-00-00)" required>
+            <input type="text" id="idCard" placeholder="ID-картка (ТТ №000000)" required>
+            <input type="text" id="faculty" placeholder="Факультет (напр. ФІОТ)" required>
+            <input type="text" id="birthday" placeholder="Дата народження (дд.мм.рррр)" required>
+            <button type="submit">Підтвердити</button>
+        </form>
+
+        <div id="result" class="result-box">
+            <h3>Введені дані:</h3>
+            <div id="outputContent"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="table-container">
+        <h3>Завдання 2: Таблиця 6x6</h3>
+        <input type="color" id="colorPicker" value="#ff0000"> <span>Оберіть колір для кліку</span>
+        <table id="myTable"></table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
